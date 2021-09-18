@@ -1,0 +1,15 @@
+.footerWrapper {
+   width: 100%;
+  background-color: #34353a;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0rem;
+  border-top: 2px solid#e4aa48;
+
+  span{
+    color: #e4aa48;
+  }
+}

@@ -1,0 +1,49 @@
+.contactWrapper{
+   width: 100%;
+  background-color: #34353A;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+   padding: 5rem 0rem;
+
+  p.contactTitle{
+     font-weight: bold;
+    color: #e4aa48;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  h1.waysToContactMeTitle{
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contactCardWrapper{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 2rem;
+
+     .contactCard{
+      width: 22rem;
+      background-color: #2e2f34;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      svg{
+        font-size: 1.5rem;
+        margin-right: 2rem;
+      }
+      p{
+         color: #e4aa48;
+      }
+
+      &:not(:last-child) {
+        margin-right: 5rem;
+      }
+     }
+  }
+}

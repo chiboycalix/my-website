@@ -1,0 +1,97 @@
+/** @format */
+
+.skills {
+  width: 100%;
+  background-color: #34353a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 5rem 0rem;
+
+  p.skillsText {
+    font-weight: bold;
+    color: #e4aa48;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  h2.whatIamGreatAt {
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  p.skillDescription {
+    width: 50%;
+    text-align: center;
+  }
+
+  .cardsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+
+    .card {
+      width: 12rem;
+      background-color: #2e2f34;
+      text-align: center;
+      padding: 4rem 2rem;
+
+      &:hover {
+        color: #e4aa48;
+      }
+
+      svg {
+        font-size: 4rem;
+      }
+
+      svg:hover {
+        color: #e4aa48;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      p:hover {
+        color: #e4aa48;
+      }
+
+      &:not(:last-child) {
+        margin-right: 5rem;
+      }
+    }
+  }
+
+  .transparentCardWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0rem;
+
+    .transparentCard {
+      width: 12rem;
+      text-align: center;
+      padding: 4rem 2rem;
+
+      &:not(:last-child) {
+        margin-right: 5rem;
+      }
+
+      p.yearValue {
+        font-size: 3rem;
+        padding: 0;
+        margin: 0;
+        font-weight: 200;
+        color: #e4aa48;
+      }
+      p.yearText {
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.heroWrapper{
+  //  width: 100%;
+  background-color: #2E2F34;
+  color: #DADADA;
+  padding: 2rem 15rem;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+
+  .imageWrapper{
+     flex-basis: 50%;
+     img{
+       width: 100%;
+     }
+  }
+
+  .nameWrapper{
+    flex-basis: 20%;
+    h1{
+      font-size: 2.5rem;
+      padding: 0;
+      margin: 0;
+      line-height: 60px;
+
+      span{
+        color: #E4AA48;
+      }
+    }
+  }
+  .introductionWrapper{
+    flex: 1;
+
+    p.introduction{
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #E4AA48;
+      font-size: 1rem;
+    }
+    h1{
+      font-weight: bold;
+      line-height: 50px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
