@@ -1,23 +1,35 @@
-import React from 'react';
-import './header.scss';
+import React from "react";
+import "./header.scss";
 
 const Header: React.FC = () => {
   return (
     <header>
       <div className="logo">
-        <p>CH <span>.</span></p>
+        <p>
+          CH <span>.</span>
+        </p>
       </div>
       <ul>
         <li>
-          <a href="/home">Home</a>
+          <a href="/">Home</a>
         </li>
-        <li><a href="/home">Portfolio</a></li>
-        <li><a href="/home">Skills</a></li>
-        <li><a href="/home">Hero</a></li>
-        <li><a href="/home">Contact</a></li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#hero">Hero</a>
+        </li>
+        <li>
+          <a href="#contact" id="#contact">
+            Contact
+          </a>
+        </li>
       </ul>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

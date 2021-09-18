@@ -1,16 +1,10 @@
-import React, {useRef} from 'react';
-import { SiReact, SiNodeDotJs,SiTypescript, GrGraphQl } from 'react-icons/all';
-import './skills.scss';
+import React from "react";
+import { SiReact, SiNodeDotJs, SiTypescript, GrGraphQl } from "react-icons/all";
+import "./skills.scss";
 
 const Skills: React.FC = () => {
-  const skillsRef: any = useRef();
-
-  React.useEffect(() => {
-    console.log(skillsRef.current.innerText);
-    skillsRef.current.display = 'none';
-  }, [])
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <p className="skillsText">SKILLS</p>
       <h2 className="whatIamGreatAt">What I am Great at</h2>
       <p className="skillDescription">
@@ -18,7 +12,7 @@ const Skills: React.FC = () => {
         have for each of them
       </p>
       <div className="cardsWrapper">
-        <div className="card" ref={skillsRef}>
+        <div className="card">
           <SiReact />
           <p>React.JS</p>
         </div>
@@ -56,6 +50,6 @@ const Skills: React.FC = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Skills
+export default Skills;

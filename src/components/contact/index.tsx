@@ -1,16 +1,13 @@
-import React from 'react';
-import './contact.scss';
-import { AiOutlineMail, IoCallOutline, FaLinkedinIn } from 'react-icons/all';
+import React from "react";
+import "./contact.scss";
+import { AiOutlineMail, IoCallOutline, FaLinkedinIn } from "react-icons/all";
 
 const Contact: React.FC = () => {
   return (
-    <div className="contactWrapper">
+    <div className="contactWrapper" id="contact">
       <p className="contactTitle">contact me</p>
       <h1 className="waysToContactMeTitle">Ways to Contact Me</h1>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam,
-        optio.
-      </p>
+      <p>These are the channels through which I can be contacted</p>
       <div className="contactCardWrapper">
         <div className="contactCard">
           <AiOutlineMail /> <p>igwechinonso77@gmail.com</p>
@@ -26,6 +23,6 @@ const Contact: React.FC = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Contact
+export default Contact;
