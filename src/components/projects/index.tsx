@@ -23,7 +23,12 @@ const Projects: React.FC = () => {
             <img src={Schoolng} alt="Schoolng" />
           </div>
           <div className="projectCardBody">
-            <h2>Schoolng</h2>
+            <h2>
+              {" "}
+              <a href="https://schooln.ng" target="_blank">
+                Schoolng
+              </a>{" "}
+            </h2>
             <p>
               A startup that connects students from different universities for
               information sharing
